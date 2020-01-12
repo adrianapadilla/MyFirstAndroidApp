@@ -23,12 +23,12 @@ class MainActivity : AppCompatActivity() {
 //                .setAction("Action", null).show()
 //        }
 
-        fab.setOnClickListener { view ->
-            // create a Toast with some text, to appear for a short time
-            val myToast = Toast.makeText(view.context, "This is a message button!", Toast.LENGTH_SHORT)
-            // show the Toast
-            myToast.show()
-        }
+//        fab.setOnClickListener { view ->
+//            // create a Toast with some text, to appear for a short time
+//            val myToast = Toast.makeText(view.context, "This is a message button!", Toast.LENGTH_SHORT)
+//            // show the Toast
+//            myToast.show()
+//        }
 
         button2.setOnClickListener { view ->
             val intent = Intent(this, SecondActivity::class.java)
