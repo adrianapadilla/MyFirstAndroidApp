@@ -17,9 +17,10 @@ class SecondActivity : AppCompatActivity() {
 
         back_button.setOnClickListener { view ->
             // create a Toast with some text, to appear for a short time
-            val myToast = Toast.makeText(view.context, "This is the message button!", Toast.LENGTH_SHORT)
+//            val myToast = Toast.makeText(view.context, "This is the message button!", Toast.LENGTH_SHORT)
             // show the Toast
-            myToast.show()
+//            myToast.show()
+            this.finish()
         }
 
     }
