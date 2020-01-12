@@ -1,5 +1,6 @@
 package com.example.myfirstandroidapp
 
+import android.content.Intent
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
@@ -28,6 +29,13 @@ class MainActivity : AppCompatActivity() {
             // show the Toast
             myToast.show()
         }
+
+        button2.setOnClickListener { view ->
+            val intent = Intent(this, SecondActivity::class.java)
+            // start your next activity
+            startActivity(intent)
+        }
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
